@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Spinoza</title>
+    <title>Home on Optimizing</title>
     <link>http://riley-wilson.github.io/</link>
-    <description>Recent content in Home on Spinoza</description>
+    <description>Recent content in Home on Optimizing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Mar 2023 09:12:47 -0800</lastBuildDate><atom:link href="http://riley-wilson.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test_post</title>
-      <link>http://riley-wilson.github.io/posts/test_post/</link>
-      <pubDate>Fri, 03 Mar 2023 09:12:47 -0800</pubDate>
-      
-      <guid>http://riley-wilson.github.io/posts/test_post/</guid>
-      <description>testing out the post. Now here&amp;rsquo;s a modification. I wonder if I can update from here. Shit. I might have to do it from the command line.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://riley-wilson.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prior to, and after, lifestyle</title>
       <link>http://riley-wilson.github.io/posts/2023-02-23-lifestyle/</link>
@@ -381,8 +372,8 @@ Robert Nozick in his Anarchy, State and Utopia asks us to imagine a machine that
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://riley-wilson.github.io/about/</guid>
-      <description>A jack of all trades but a master of none, en route to becoming a master of some Here are professional facts about me in chronological order:
-Interned at an e-learning company freshman summer of college. Started an e-learning company in undergrad. It’s extant and called Arist. Joined Contrary as Chief of Staff on their investment team. </description>
+      <description>A jack of all trades but a master of none, en route to becoming a master of some There are only two ways I can learn: writing and solving problems. This website is a venue for both activities, though the writing part is more apparent than the problem-solving part. My main priority as a writer is to be understood. If I write something confusing, I am likely confused.
+Here are some professional facts about me:</description>
     </item>
     
     <item>

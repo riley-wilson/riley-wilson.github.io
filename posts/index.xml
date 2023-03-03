@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Spinoza</title>
+    <title>Posts on Optimizing</title>
     <link>http://riley-wilson.github.io/posts/</link>
-    <description>Recent content in Posts on Spinoza</description>
+    <description>Recent content in Posts on Optimizing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Mar 2023 09:12:47 -0800</lastBuildDate><atom:link href="http://riley-wilson.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test_post</title>
-      <link>http://riley-wilson.github.io/posts/test_post/</link>
-      <pubDate>Fri, 03 Mar 2023 09:12:47 -0800</pubDate>
-      
-      <guid>http://riley-wilson.github.io/posts/test_post/</guid>
-      <description>testing out the post. Now here&amp;rsquo;s a modification. I wonder if I can update from here. Shit. I might have to do it from the command line.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://riley-wilson.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prior to, and after, lifestyle</title>
       <link>http://riley-wilson.github.io/posts/2023-02-23-lifestyle/</link>
