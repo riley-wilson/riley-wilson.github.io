@@ -6,7 +6,16 @@
     <description>Recent content in Home on Optimizing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://riley-wilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://riley-wilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reconstructing Shulman&#39;s AI arguments</title>
+      <link>http://riley-wilson.github.io/posts/2023-06-25-shulman-ai/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://riley-wilson.github.io/posts/2023-06-25-shulman-ai/</guid>
+      <description>Carl Shulman is a Research Associate at the Future of Humanity Institute. He recently appeared on Dwarkesh Patel&amp;rsquo;s podcast to discuss what he calls an &amp;ldquo;intelligence explosion.&amp;rdquo; I am an AI newbie. To better understand Shulman, I decided to reconstruct the former&amp;rsquo;s arguments as he presented them for Dwarkesh. I am ignoring the latter part of their discussion about alignment. Please note my prior knowledge of AI is limited. I am relying on Cunningham&amp;rsquo;s law to help me learn.</description>
+    </item>
+    
     <item>
       <title>Towards measuring WTA court speeds</title>
       <link>http://riley-wilson.github.io/posts/2023-05-17-wta-conditions/</link>

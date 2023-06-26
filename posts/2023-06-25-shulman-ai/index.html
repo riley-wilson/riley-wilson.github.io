@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reconstructing Shulman&#39;s AI arguments | Optimizing</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Reconstructing Shulman&rsquo;s AI arguments</span></h1>
+
+<h2 class="date">2023/06/25</h2>
+</div>
+
+<main>
+<p><a href="https://www.fhi.ox.ac.uk/team/carl-shulman/">Carl Shulman</a> is a Research Associate at the Future of Humanity Institute. He recently <a href="https://www.dwarkeshpatel.com/p/carl-shulman#details">appeared</a> on Dwarkesh Patel&rsquo;s podcast to discuss what he calls an &ldquo;intelligence explosion.&rdquo; I am an AI newbie. To better understand Shulman, I decided to reconstruct the former&rsquo;s arguments as he presented them for Dwarkesh. I am ignoring the latter part of their discussion about alignment. Please note my prior knowledge of AI is limited. I am relying on Cunningham&rsquo;s law to help me learn. Any misrepresentations of Shulman&rsquo;s views are my responsibility and I welcome corrections.</p>
+<h3 id="intelligence-explosion">Intelligence Explosion</h3>
+<p>Shulman&rsquo;s core idea is AI could undergo rapid improvement fueled by — you guessed it — improvements in AI. Once AI has gotten sufficiently good, it can improve AI researcher productivity, which makes better AI. Capabilities then balloon in short order leading to an &ldquo;intelligence explosion.&rdquo; Shulman talks about AI abilities doubling every X years to doubling every X/2 years, to doubling every X/4 years, et cetera. If this sounds wild, remember there is historical precendent for a similar &ldquo;explosion.&rdquo; In 1975, Gordon Moore mused that the number of transistors on a computer chip would double every two years. He&rsquo;s been proven roughly right, even to the current day. If we can double the capabilities of hardware at a constant rate, it&rsquo;s plausible we could double the capabilities of software even quicker.</p>
+<p>Experience seems to bear out an approximate &ldquo;Moore&rsquo;s law&rdquo; of AI, too. I&rsquo;m not familiar with the technical benchmarks researchers use to measure model performance, but progress has been quick even to the layperson. Our World in Data compiled nice graphics which put AI capabilities into context over time. The first details how AIs have performed on language and image tasks over the last 20 years. The second demonstrates how much better AIs have gotten at producing images since 2014.</p>
+<p><img src="https://ourworldindata.org/uploads/2022/12/AI-performance_Dynabench-paper.png" alt="Ai performance dynabench paper"></p>
+<p><a href="https://ourworldindata.org/uploads/2022/12/AI-performance_Dynabench-paper.png">https://ourworldindata.org/uploads/2022/12/AI-performance_Dynabench-paper.png</a></p>
+<p><img src="https://ourworldindata.org/uploads/2022/12/Timeline-of-AI-generated-faces.png" alt="Timeline of ai generated faces"></p>
+<p><a href="https://ourworldindata.org/uploads/2022/12/Timeline-of-AI-generated-faces.png">https://ourworldindata.org/uploads/2022/12/Timeline-of-AI-generated-faces.png</a></p>
+<p>Can we reason AI capabilities have been doubling every two years a lá Moore&rsquo;s law from these graphics? Definitely not, but they&rsquo;re suggestive. At the least, it&rsquo;s undeniable AI has been progressing rapidly.</p>
+<p>The obvious consequence of an intelligence explosion is we get AGI<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> quicker than we think. A less obvious consequence, according to Shulman, is we get an analogous &ldquo;robot explosion&rdquo; (my term). Right now, AI&rsquo;s controlling robots are good at basic physical tasks. Fine-motor control is, and in the early days of AGI, will be, a human advantage. The only way for AIs to improve will be to train off data collected from the robotic &ldquo;bodies&rdquo; they&rsquo;ll inhabit.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> AIs, then, will persuade (coerce?) humans to produce more robots that will be needed to collect robot-specific data which can train AIs in physical tasks. With our fleshy hands and feet, we can do the things AIs find difficult, under the guidance of of highly intelligent AIs to maximize productivity. Shulman reasons that if we convert the current automobile industry to robot production, we can produce a billion human-size robots a year. Eventually, the AIs would have enough robot sensor data to do delicate tasks themselves. Once this happens, he says the robot population could be doubling in &ldquo;months.&rdquo;</p>
+<p>Shulman does not think we&rsquo;re necessarily on the brink of an intelligence explosion. He believes AI capabilities will grow quickly in the short term as more resources are redirected to AI from other fields. If AIs reach the point where they&rsquo;ll accelerate AI research during the short-term quick growth, we&rsquo;ll get an intelligence explosion soon. Alternatively, progress stalls, and an explosion is farther off.</p>
+<h3 id="counterarguments-to-an-intelligence-explosion">Counterarguments to an intelligence explosion</h3>
+<p>You might be sceptical of an intelligence explosion. I see three main kinds of objections one kind make. You could doubt AI&rsquo;s capability to accelerate AI progress in a meaningful way, you can argue there&rsquo;s a resource constraint which prevents an explosion, or you could think the upper bound on AI ability is too low. Shulman addresses all three of these in his conversation with Dwarkesh. I&rsquo;ll relay them in turn.</p>
+<h4 id="ais-cannot-meaningfully-contribute-to-ai-progress">AIs cannot meaningfully contribute to AI progress</h4>
+<p>In a certain sense, this objection is clearly false. AI&rsquo;s are already directly contributing to AI research. As is often noted, Github Copilot is used by employees at OpenAI, so GPT-3 already contributes to progress on other OpenAI models.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> What&rsquo;s less clear is whether AIs can dramatically accelerate the rate of improvement. Shulman describes the best case scenario:</p>
+<blockquote>
+<p>[AIs] boosting [humans&rsquo;] effective productivity by 50 or 100%, and if you then go from like eight months doubling time for effective compute from software innovations, things like inventing the transformer or discovering chinchilla scaling and doing your training runs more optimally or creating flash attention. If you move that from 8 months to 4 months and then the next time you apply that it significantly increases the boost you&rsquo;re getting from the AI. Now maybe instead of giving a 50% or 100% productivity boost it&rsquo;s more like 200%. (18:38)</p>
+</blockquote>
+<p>To get these productivity boosts, AIs need not be fancy. They can just automate some things but do them so much more quickly than any human. (Even without a human-level AI, you can &ldquo;make all kinds of discoveries, then you immediately develop all sorts of tremendous technologies.&rdquo; (18:38).) [potentially cut]</p>
+<p>Readers might be sceptical here. What exactly are these early AIs automating? Is automation alone enough to kickstart a rapid improvement feedback loop? Shulman&rsquo;s response is &ldquo;yes&rdquo; and &ldquo;yes.&rdquo; In addition to automating the nasty parts of any job, including AI research, subhuman-level AIs can do concrete things to directly advance AI progress that a workforce of humans would never attempt. For instance,</p>
+<blockquote>
+<p>[If] the AI can generate a lot of unit tests and then can try and produce programs that pass those unit tests, then the interpreter is providing a training signal and the AI can get good at figuring out what&rsquo;s the kind of programming problem that is hard for AIs right now that will develop more of the skills that I need and then do them. You&rsquo;re not going to have employees at Open AI write a billion programming problems, that&rsquo;s just not gonna happen. But you are going to have AIs given the task of producing the enormous number of programming challenges.</p>
+</blockquote>
+<p>Personally, I think the idea of AI increasing the rate of AI progress is quite strong. As mentioned, the basic case of low-level AIs functioning as a productivity tool for research is already happening. The more sophisticated case of AIs creating training data for themselves is also somewhat a reality. AlphaZero (a successor to AlphaGo) reached superhuman Go levels by playing against itself, or, in a sense, providing its own training data.</p>
+<h4 id="resource-constraints-on-an-intelligence-explosion">Resource constraints on an intelligence explosion</h4>
+<p>Even if AIs could accelerate their own improvement enough to cause a self-reinforcing feedback loop, there might not be enough resources in the world to support one. The &ldquo;fuel,&rdquo; so to speak, of AI improvement may be exhausted quickly. After that point, AI progress could be bottlenecked by these resources and not &ldquo;explode.&rdquo;</p>
+<h5 id="gpus">GPUs</h5>
+<p>GPUs are one candidate scarce resource. GPUs are superfast processors well-suited for computationally intensive tasks like rendering graphics, mining crypto, or training LLMs. My nontechnical impression is if GPUs did not exist, training GPT-3 level models would be nearly impossible. GPUs are also expensive, difficult to manufacture, and are currently subject to geopolitical risk.  A single Nvidia H100 GPU currently costs ~$35,000, and OpenAI <a href="https://analyticsindiamag.com/nvidia-emerges-as-clear-winner-in-ai-showdown/#:~:text=For%20instance%2C%20OpenAI%20used%20over,on%20the%20NVIDIA%20A100%20GPU.">reportedly</a> used more than 10,000 similar units to train GPT-3.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> A GPU fab takes 10 years to build, and the best ones are located in Taiwan, which China claims. Sceptics may reason any one of cost, manufacturing issues, or war could preclude a Shulman explosion.</p>
+<p>I&rsquo;ll start by reconstructing Shulman&rsquo;s thoughts on manufacturing bottlenecks. Please note this section is approximate since I&rsquo;m piecing together what he said at different points in the interview to create a reasonable view.</p>
+<p>Shulman&rsquo;s counter to manufacturing bottlenecks is enough improvements in software can compensate for any slowdowns in hardware. AIs run on sufficiently powerful GPUs can speed AI research and result in better AIs implemented on the same GPUs. Even if GPU progress halts, there is still room to improve AI on the software side by orders of magnitude, so Shulman&rsquo;s reasoning goes.</p>
+<blockquote>
+<p>Those [existing GPUs] if they were running AI software that was as efficient as humans, it is sample efficient, it doesn&rsquo;t have any major weaknesses, so they can work four times as long, the 168 hour work week, they can have much more education than any human [&hellip;]. So you combine the things tens of millions of GPUs, each GPU is doing the work of the very best humans in the world [&hellip;] And so when you consider this — tens of millions of GPUs. Each is doing the work of 40, maybe more of these existing workers, is like going from a workforce of tens of thousands to hundreds of millions. You immediately make all kinds of discoveries, then you immediately develop all sorts of tremendous technologies. (18:38)<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+</blockquote>
+<p>The &ldquo;tremendous technologies&rdquo; in software can be immediately implemented on the existing GPUs.</p>
+<blockquote>
+<p>Initially the returns are especially high in doing more software and the reason for that is again, if you improve the software you can update all of the GPUs that you have access to. Your cloud compute is suddenly more potent. If you design a new chip design, it&rsquo;ll take a few months to produce the first ones and it doesn&rsquo;t update all of your old chips. (1:34:37)</p>
+</blockquote>
+<p>I&rsquo;m not sure how far he&rsquo;s willing to go, but the extreme version of Shulman&rsquo;s point is we could have an intelligence explosion on the existing stock of millions of high-performance GPUs. Even if it takes 10 years to build a fab for new chips, AIs could still improve rapidly.</p>
+<p>I&rsquo;ll save discussion of GPU cost for the next section, since it&rsquo;s best addressed by reasoning about money as a constraint to an intelligence explosion in general. To close, I&rsquo;ll briefly touch on the risk conflict in Taiwan poses to AI. Dwarkesh Patel recently <a href="https://www.dwarkeshpatel.com/p/ilya-sutskever#details">questioned</a>  Ilya Sutskever, Chief Scientist at OpenAI, about what a disaster in Taiwan would mean:</p>
+<blockquote>
+<p><strong>Dwarkesh Patel</strong></p>
+<p>How vulnerable is the whole AI ecosystem to something that might happen in Taiwan? So let&rsquo;s say there&rsquo;s a tsunami in Taiwan or something, what happens to AI in general?</p>
+<p><strong>Ilya Sutskever</strong></p>
+<p>It&rsquo;s definitely going to be a significant setback. No one will be able to get more compute for a few years. But I expect compute will spring up. For example, I believe that Intel has fabs just like a few generations ago. So that means that if Intel wanted to they could produce something GPU-like from four years ago. But yeah, it&rsquo;s not the best,</p>
+<p>I&rsquo;m actually not sure if my statement about Intel is correct, but I do know that there are fabs outside of Taiwan, they&rsquo;re just not as good. But you can still use them and still go very far with them. It&rsquo;s just cost, it’s just a setback.</p>
+</blockquote>
+<h5 id="monetary-constraints">Monetary constraints</h5>
+<p>GPT-4 <a href="https://www.wired.com/story/openai-ceo-sam-altman-the-age-of-giant-ai-models-is-already-over/">cost</a> more than $100 million to train. Bigger, better models will cost more, maybe by orders of magnitude. Dwarkesh Patel asked Shulman on whether we can kickstart an intelligence explosion before models get too expensive.</p>
+<blockquote>
+<p>Even if we have greater effective compute from hardware increases and better models, it&rsquo;s hard to imagine how we could sustain four or five orders of magnitude greater effective size than GPT-4 unless we&rsquo;re dumping in trillions of dollars, the entire economies of big countries, into training the next version. The question is do we get something that can significantly help with AI progress before we run out of the sheer money and scale and compute that would require to train it? (28:26)</p>
+</blockquote>
+<p>Shulman responds by emphasizing the potential payoffs of building powerful AI. If an AI costs $1 billion to develop, you need to expect at least $1 billion in gains to justify it. According to him, the math works out at the trillion-dollar scale.</p>
+<blockquote>
+<p>From where we are right now seeing the results with GPT-4 and ChatGPT companies like Google and Microsoft are pretty convinced that this is very valuable. You have talk at Google and Microsoft that it&rsquo;s a billion dollar matter to change market share in search by a percentage point so that can fund a lot. On the far end if you automate human labor we have a hundred trillion dollar economy and most of that economy is paid out in wages, between 50 and 70 trillion dollars per year. If you create AGI it&rsquo;s going to automate all of that and keep increasing beyond that. So the value of the completed project Is very much worth throwing our whole economy into it, if you&rsquo;re going to get the good version and not the catastrophic destruction of the human race or some other disastrous outcome.</p>
+<p>[&hellip;] These large tech companies have R&amp;D budgets of tens of billions of dollars and when you think about it in the relevant sense all the employees at Microsoft who are doing software engineering that’s contributing to creating software objects, it&rsquo;s not weird to spend tens of billions of dollars on a product that would do so much. And I think that it&rsquo;s becoming clearer that there is a market opportunity to fund [expensive models]. (29:37)</p>
+</blockquote>
+<p>In general, Shulman probably sees money as another accelerant to an intelligence explosion, not a constraint. He often emphasizes how AI can make workers more productive or automate their work altogether, saving wage expenses. Since the payoffs are so big, companies should be willing to spend billions of dollars on AI research. The same incentives solve problems on the GPU side.</p>
+<blockquote>
+<p>If in fact you&rsquo;re getting very high revenue from the AI systems and you&rsquo;re actually bottlenecked on the construction of these fabs then their price could skyrocket and that could lead to measures we&rsquo;ve never seen before to expand and accelerate fab production. (35:09)</p>
+</blockquote>
+<h4 id="technological-limitations">Technological limitations</h4>
+<p>An intelligence explosion may stall because AI can&rsquo;t get much better. No matter the money and GPUs we toss at it, it could impossible to build hyperintelligent systems with our current knowledge (GPTs, neural nets, etc&hellip;), so the sceptic says. Of course, Shulman thinks otherwise. He uses examples from primate evolution to argue the difference between a hyperintelligent system and current, less intelligent ones is a matter of scale.</p>
+<blockquote>
+<p><a href="https://www.frontiersin.org/articles/10.3389/neuro.09.031.2009/full">[Herculano-Houzel has a paper]</a> discussing the human brain as a scaled up primate brain. Across a wide variety of animals, mammals in particular, there&rsquo;s certain characteristic changes in the number of neurons and the size of different brain regions as things scale up. There&rsquo;s a lot of structural similarity there and you can explain a lot of what is different about us with a brute force story which is that you expend resources on having a bigger brain, keeping it in good order, and giving it time to learn.</p>
+<p>[&hellip;]</p>
+<p>In my experience over the last 15 years the things that people call out are like —”Ah, but the AI can&rsquo;t do that and it&rsquo;s because of a fundamental limitation.” We&rsquo;ve gone through a lot of them. There were <a href="https://en.wikipedia.org/wiki/Winograd_schema_challenge">Winograd schemas</a>, catastrophic forgetting, quite a number and they have repeatedly gone away through scaling. (41:23)</p>
+</blockquote>
+<p>Shulman also emphasizes the evolutionary pressures which prevent humans from achieving maximum intelligence aren&rsquo;t present in developing AIs. Humans are much less intelligent than we could be. Having larger brains helps us navigate social environments and make tools, but brain size carries tradeoffs. We already devote, according to Shulman, 20% of our metabolic energy to our brains, and our evolutionary past didn&rsquo;t always value intelligence. Having a robust immune system or &ldquo;big muscles to throw spears&rdquo; was often balanced against scaling our brains. Dwarkesh also points out human head size is limited by hip width. We were fortunate to have an evolutionary environment which rewarded human intelligence, but ours was far from ideal. AI evolution is not subject to the same constraints. Dwarkesh summarizes Shulman&rsquo;s point nicely:</p>
+<blockquote>
+<p>Okay. And the crucial point in relevance to AI is that the selective pressures against intelligence in other animals are not acting against these neural networks because they&rsquo;re not going to get eaten by a predator if they spend too much time becoming more intelligent, we&rsquo;re explicitly training them to become more intelligent. So we have good first principles reason to think that if it was scaling that made our minds this powerful and if the things that prevented other animals from scaling are not impinging on these neural networks, these things should just continue to become very smart. (52:06).</p>
+</blockquote>
+<h3 id="commentary">Commentary</h3>
+<p>I appreciated the conversation for emphasizing some factors which accelerate AI progress. Broadly, I&rsquo;m comfortable with AIs already contributing to their own development, ignorant about GPUs as a constraint. However, I disagree with Shulman about the evolutionary environment current AIs are developed in and our willingness to train trillion-dollar models.</p>
+<p>The evolutionary environment AIs face does not only reward intelligence. AIs we create must be smart, but also fast, personable, clear, scalable, and more, all in service of being profitable. They are not incentivized to be maximally intelligent. The largest models are developed by private companies who expect a return on their investment. In the same way human intelligence is impressive, but constrained by competing priorities like muscle mass and immune function, AIs will be intelligent, but limited by how profitable they are to their creators. A company with a choice between developing a hyperintelligent AI and a moneymaking one will choose the latter.</p>
+<p>And I assure you, intelligence and commercial viability can diverge. Microsoft, OpenAI&rsquo;s most largest patron, isn&rsquo;t using AI to help mathematicians solve Millennium Problems. Instead, it&rsquo;s building <a href="https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/">Business Chat</a>, a ChatGPT-like product that has access to a company&rsquo;s data. You can ask Business Chat about a certain customer, product, or conversation, and it can give you context since it ingests all of your information from Teams, Outlook, OneNote, Office 365, Windows, etc&hellip; It&rsquo;s like having a tireless assistant who knows literally everything that&rsquo;s happening in the company. For such an assistant to be useful, they only need to be highly informed and smart enough to speak in clear sentences. The most useful part of LLMs isn&rsquo;t that they can do integrals, but that they&rsquo;re a natural language interface to information. Perhaps private AI will be primarily developed to sell enterprise software rather than push the limits on intelligence.</p>
+<p>For related reasons, I&rsquo;m more sceptical of trillion-dollar models than Shulman. Although OpenAI is expecting revenues of hundreds of millions next year, could an LLM-type product return a trillion-dollar investment? Remember, a trillion dollars is a lot of dollars. To make a trillion, you&rsquo;d have to sell a $1000 product to 1 billion people, or a $10,000 product to 100 million people. Shulman counters by saying advanced AIs could earn trillions by automating <em>all the labor in the world</em>. That&rsquo;s far-fetched. Other countries would not be happy with a single (American) company stealing their citizens&rsquo; jobs. Italy already briefly banned ChatGPT for privacy reasons. Governments could do worse when their economies are at risk.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I honestly don&rsquo;t know what AGI is. What does the &ldquo;general&rdquo; mean? That an AI is super powerful? That it is an agent? That it can improve itself? What do most people mean when they say AGI?&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>This is why training robot AI is so difficult. You need to create thousands of robots to get enough data. Ilya Sutskever, Chief Scientist at OpenAI, actually made this point to Dwarkesh in a different podcast.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>I remember a paper from a while ago on how researchers used AI to find better matrix multiplication techniques, which improves AI.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>I don&rsquo;t take this number too seriously. I&rsquo;m not sure if OpenAI actually purchased these units or those were they units they touched in a Microsoft server farm. The H100 prices are likely higher than what OpenAI paid for them, too. However, 10000*$35000 = 350 million which is within an order of magnitude for how much it cost to train GPT-4. I&rsquo;m ignoring (and ignorant of) a lot of things like the cost of hardware versus salaries versus the cost of running computations, but my point is GPUs are expensive and you need a lot.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Shulman is addressing a different point in this quote, but I think the reasoning applies to concerns about GPU problems.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+
