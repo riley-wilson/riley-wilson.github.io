@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Textures</title>
+    <title>Home on Yip Yip</title>
     <link>http://riley-wilson.github.io/</link>
-    <description>Recent content in Home on Textures</description>
+    <description>Recent content in Home on Yip Yip</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://riley-wilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://riley-wilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Black Stone Minerals I</title>
+      <link>http://riley-wilson.github.io/posts/2023-08-14-black-stone-minerals/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://riley-wilson.github.io/posts/2023-08-14-black-stone-minerals/</guid>
+      <description>Long ago, I bought shares in Black Stone Minerals (BSM) on the advice of a family member. I&amp;rsquo;m not sure it was a good idea. When I bought, I had little idea of what BSM did or whether it was a fundamentally sound business. I didn&amp;rsquo;t lose money, but sinned in placing it somewhere I didn&amp;rsquo;t fully understand.
+BSM&amp;rsquo;s share price has fluctuated since the investment. Now, it&amp;rsquo;s near what I originally paid.</description>
+    </item>
+    
     <item>
       <title>Concussed economics of generative AI</title>
       <link>http://riley-wilson.github.io/posts/2023-07-11-coconomics-of-ai/</link>
