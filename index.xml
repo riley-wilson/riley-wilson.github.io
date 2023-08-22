@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Yip Yip</title>
+    <title>Home on Textures</title>
     <link>http://riley-wilson.github.io/</link>
-    <description>Recent content in Home on Yip Yip</description>
+    <description>Recent content in Home on Textures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://riley-wilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://riley-wilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Black Stone Minerals II - modeling</title>
+      <link>http://riley-wilson.github.io/posts/2023-08-22-black-stone-minerals-ii/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://riley-wilson.github.io/posts/2023-08-22-black-stone-minerals-ii/</guid>
+      <description>In my last post, you met a nifty company named Black Stone Minerals (BSM). On face, it&amp;rsquo;s an attractive organization. To recap, BSM owns millions of acres of mineral rights in the United States. When oil and gas companies drill on those acres, they must pay BSM a portion of their revenues. In effect, BSM lets others do the hard work of extracting resources while it twiddles its thumbs and receives checks in the mail.</description>
+    </item>
+    
     <item>
       <title>Black Stone Minerals I</title>
       <link>http://riley-wilson.github.io/posts/2023-08-14-black-stone-minerals/</link>
